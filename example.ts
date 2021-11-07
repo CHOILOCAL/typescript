@@ -1,13 +1,13 @@
 class Person1 {
     public name: string = "";
     public age!: number; // not initializer
-    private _age!: number;
+    // private _age!: number;
 
     public constructor(name: string) {
         this.name = name;
     }
 
-    public async init() {}
+    // public async init() {}
 }
 
 const p11 = new Person1("Hyunji");

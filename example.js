@@ -1,5 +1,6 @@
 "use strict";
 var Person1 = /** @class */ (function () {
+    // private _age!: number;
     function Person1(name) {
         this.name = "";
         this.name = name;
