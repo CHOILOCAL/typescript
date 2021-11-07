@@ -12,3 +12,7 @@ var a = new Students();
 a.mark = "male";
 a.jade = "male";
 console.log(a);
+var b = new Students();
+b.chloe = "female";
+b.alex = "male";
+b.anna = "female";
